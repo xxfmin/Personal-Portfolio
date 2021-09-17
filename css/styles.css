@@ -1,0 +1,174 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+.imFelipeMin {
+  font-family: 'Caveat', cursive;
+  font-size: 70px;
+  color: #57837B;
+}
+
+.aProgrammer {
+  color: #515E63;
+  position: relative;
+  bottom: 35px;
+}
+
+h1 {
+  margin-top: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #515E63;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #57837B;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #57837B;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border: dotted #578376 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+a {
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #C9D8B6;
+}
+
+.topContainer {
+  background-color: #C9D8B6;
+  position: relative;
+  padding-top: 150px;
+  padding-bottom: 35px;
+}
+
+.middleContainer {
+  background-color: #F1ECC3;
+  padding-bottom: 30px;
+}
+
+.bottomContainer {
+  background-color: #57837B;
+  padding: 20px 0 30px
+}
+
+.mountain {
+  width: 48%;
+  padding-top: 20px;
+}
+
+.topCloud {
+  height: 15%;
+  position: absolute;
+  right: 175px;
+  top: 75px;
+}
+
+.bottomCloud {
+  height: 18%;
+  position: absolute;
+  left: 150px;
+  bottom: 250px;
+}
+
+.profile {
+  width: 65%;
+  margin: auto;
+  line-height: 2;
+  margin-bottom: 150px;
+}
+
+.aboutTitle {
+  margin-top: 7px;
+}
+
+.meDescription {
+  margin-top: 100px;
+}
+
+.myPicture {
+  width: 30%;
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+}
+
+.experienceRow {
+  width: 65%; /*makes the space only occupy 65% of the screen*/
+  margin: auto; /*makes the space be centered and only occupy the 65% it is supposed to*/
+  margin: 100px auto 150px auto;
+  text-align: left;
+}
+
+.attImage {
+  width: 23%;
+  border-radius: 25px;
+  float: right; /*makes the text go to the right of the image*/
+  margin-left: 30px; /*creates space between the image and the text*/
+}
+
+.websiteImage{
+  width: 23%;
+  border-radius: 25px;
+  float: right;
+  margin-left: 30px;
+}
+
+.contactMe {
+  width: 65%;
+  margin: auto;
+}
+
+.contactMeGIF {
+  height: 350px;
+  margin: -125px auto -100px;
+}
+
+.myButton { /*Used CSS Button Generator to create a custom button*/
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:8px;
+	border:2px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	padding:4px 16px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+  color: #F1ECC3;
+  font-size: 0.75rem;
+  padding-top: 15px;
+}
